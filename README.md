@@ -1,4 +1,4 @@
-# Velir Drupal Assessment
+# Velir: Drupal Assessment
 
 ## Initial setup
 
