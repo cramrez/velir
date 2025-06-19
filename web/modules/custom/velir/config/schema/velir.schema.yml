@@ -1,0 +1,11 @@
+# Schema for the configuration files of the Velir module.
+velir.settings:
+  type: config_object
+  label: 'Velir settings'
+  mapping:
+    first_name:
+      type: string
+      label: 'First Name'
+    last_name:
+      type: string
+      label: 'Last Name'

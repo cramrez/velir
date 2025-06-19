@@ -1,0 +1,22 @@
+velir.hello-velir-1:
+  path: 'hello-velir-1'
+  defaults:
+    _title: 'Hello-velir-1'
+    _controller: '\Drupal\velir\Controller\VelirController'
+  requirements:
+    _permission: 'access content'
+velir.json:
+  path: 'hello-velir-2'
+  defaults:
+    _title: 'Velir Json'
+    _controller: '\Drupal\velir\Controller\JsonController'
+  requirements:
+    _permission: 'access content'
+
+velir.settings_velir:
+  path: '/admin/config/system/settings-velir'
+  defaults:
+    _title: 'Settings velir'
+    _form: 'Drupal\velir\Form\SettingsVelirForm'
+  requirements:
+    _permission: 'administer site configuration'

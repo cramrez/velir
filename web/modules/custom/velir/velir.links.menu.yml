@@ -1,0 +1,6 @@
+velir.settings_velir:
+  title: Settings velir
+  description: Settings Velir Config
+  parent: system.admin_config_system
+  route_name: velir.settings_velir
+  weight: 10
