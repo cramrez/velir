@@ -18,6 +18,10 @@ ddev drush uli
 mkdir -p web/sites/simpletest/browser_output
 chmod -R 777 web/sites/simpletest
 
+# Excecute Tests.
+ddev exec ./vendor/bin/phpunit ./web/modules/custom/velir/tests/src/Functional/*
+ddev exec ./vendor/bin/phpunit ./web/modules/custom/velir/tests/src/Kernel/* 
+
 ```
 
 In phpunit.xml make the following changes:
