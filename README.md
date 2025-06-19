@@ -11,6 +11,12 @@ ddev composer install
 # Install site from config.
 ddev drush -y site:install --existing-config -v
 
+# Create dummy content.
+ddev drush dummy-content
+
+# Clear cache
+ddev drush cr
+
 # Access to the site
 ddev drush uli
 

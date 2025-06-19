@@ -1,0 +1,5 @@
+services:
+  velir.commands:
+    class: \Drupal\velir\Commands\DummyContentCommands
+    tags:
+      - { name: drush.command }
