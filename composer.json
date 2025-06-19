@@ -46,9 +46,12 @@
     "config": {
         "allow-plugins": {
             "composer/installers": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true,
+            "tbachert/spi": true
         },
         "sort-packages": true,
         "optimize-autoloader": true
@@ -84,5 +87,10 @@
                 "  * Get involved with the Drupal community: https://drupal.org/getting-involved"
             ]
         }
+    },
+    "require-dev": {
+        "behat/mink-selenium2-driver": "*",
+        "drupal/core-dev": "^11.2",
+        "phpunit/phpunit": "^11.5"
     }
 }

@@ -15,11 +15,10 @@ final class VelirController extends ControllerBase {
    * Builds the response.
    */
   public function __invoke() {
-
-    $build = [
-      '#markup' => $this->t('Hello, my name is Carlos'),
+    return [
+      '#type' => 'markup',
+      '#markup' => $this->t('Hello, my name is @name.', ['@name' => 'Carlos']),
     ];
-    return $build;
   }
 
 }

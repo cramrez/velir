@@ -1,0 +1,20 @@
+uuid: 43ce41d5-6740-42d2-9f38-d2d990ee865b
+langcode: en
+status: true
+dependencies:
+  module:
+    - velir
+  theme:
+    - drupal_cms_olivero
+id: drupal_cms_olivero_velirblock
+theme: drupal_cms_olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: velir_block
+settings:
+  id: velir_block
+  label: 'Velir Block'
+  label_display: visible
+  provider: velir
+visibility: {  }
