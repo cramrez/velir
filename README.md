@@ -24,3 +24,15 @@ In phpunit.xml make the following changes:
 
 * Set the SIMPLETEST_BASE_URL variable to the URL of your site.
 * Set the SIMPLETEST_DB variable to point to the URL of your Drupal database.
+
+
+### Question:
+
+Q. Describe an instance when you would create a custom data entity versus use the Node entity.
+What are some downsides when Node is used when it should not be?
+
+A. You can use an entity when you want to save a log of calls to an external API. It saves some important fields such as user_id, call_url, and timestamp.
+
+Some downsides could be:
+Unnecessary complexity in terms of the number of tables and fields that aren't necessary.
+Database overhead.
