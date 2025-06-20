@@ -30,11 +30,20 @@ ddev exec ./vendor/bin/phpunit ./web/modules/custom/velir/tests/src/Kernel/*
 
 ```
 
-In phpunit.xml make the following changes:
+In phpunit.xml file make the following changes:
 
 * Set the SIMPLETEST_BASE_URL variable to the URL of your site.
 * Set the SIMPLETEST_DB variable to point to the URL of your Drupal database.
 
+
+### Route to review the assessment.
+1. https://velir.ddev.site/hello-velir-1
+2. https://velir.ddev.site/hello-velir-2
+3. https://velir.ddev.site/admin/config/system/settings-velir
+4. https://velir.ddev.site/admin/structure/types/manage/article/display
+5. https://velir.ddev.site/hello-velir-3
+6. https://velir.ddev.site/      (# the block is displayed in the sidebar )
+7. https://velir.ddev.site/hello-velir-view
 
 ### Question:
 
